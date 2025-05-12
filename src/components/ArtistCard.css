@@ -1,0 +1,31 @@
+.artist-card {
+  /* Оставляем существующие стили для карточки */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 16px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0; /* Предотвращаем сжатие карточек */
+  width: 300px; /* Задаем фиксированную ширину для каждой карточки (подстрой по необходимости) */
+}
+
+.artist-image {
+  width: 80px; /* Уменьшаем размер изображения, чтобы лучше помещалось в горизонтальном ряду */
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 16px;
+  object-fit: cover;
+}
+
+.artist-info h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.2em; /* Уменьшаем размер шрифта */
+}
+
+.artist-info p {
+  margin-top: 0;
+  font-size: 0.9em; /* Уменьшаем размер шрифта */
+}

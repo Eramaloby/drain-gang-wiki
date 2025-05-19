@@ -4,4 +4,12 @@ export interface Artist {
   description: string;
   image: string;
   slug: string;
+  birthYear: number;
+  birthPlace: string;
+  socials?: {
+    instagram?: string;
+    twitter?: string;
+    soundcloud?: string;
+    [key: string]: string | undefined;
+  };
 }
